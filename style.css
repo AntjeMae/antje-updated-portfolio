@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+} /* This is used to make sure my webpage doesn't default to the old method of box-sizing, "box-sizing: content-box" */
+
+h1 {
+  color: mediumseagreen;
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+} /* styling for heading 1 */
+
+h2 {
+  color: mediumseagreen;
+  font-family: cursive;
+  font-size: 18px;
+  text-align: center;
+} /* styling for heading 2 */
+
+header {
+  background-color: lavender;
+  margin: 10px;
+  padding: 10px;
+} /* styling with margin and padding for header container */
+
+main {
+  background-color: mediumseagreen;
+  margin: 10px;
+  padding: 10px;
+} /* styling with margin and padding for main container */
+
+h3 {
+  color: lavender;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+} /* styling for heading 3 */
+
+p, h4 {
+  color: lavender;
+  font-family: cursive;
+  font-size: 18px;
+  text-align: center;
+} /* styling for both p (paragraph) and h4 (heading for lists) */
+
+img {
+  width: 30%;
+  height: 30%;
+} /* The image of me was too large, so I scaled it down */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} /* I used this to center the photo of me within the div container */
+
+a:link { color: lavender } /* This is the regular color of any link on my webpage */
+a:hover { color: midnightblue } /* color of link when hovered over by cursor */
+a:active { color: indigo } /* color of link while user is actively clicking on it */
+a:visited { color: indigo } /* color of link after it has been visited */
+
+ol, ul {
+  color: lavender;
+  font-family: cursive;
+  font-size: 18px;
+  text-align: center;
+} /* this is the styling for both the ordered-lists and unordered-lists on my webpage */
+
+.list-inside li {
+  list-style-position: inside;
+} /* moves bullets/numbers of list-items to inside of the list-item container */
+
+footer {
+  background-color: lavender;
+  margin: 10px;
+  padding: 10px;
+} /* styling with margin and padding for footer container */
+
+h5 {
+  color: mediumseagreen;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+} /* styling for heading 5 */
